@@ -1,0 +1,11 @@
+# [ ] create, call and test fishstore() function 
+# then PASTE THIS CODE into edX
+
+
+def fishstore (fish_entry, price_entry):
+    fish_details = (fish_entry.title() + price_entry)
+    return fish_details
+
+fish_requested = fishstore ("Fish Type: " + input ("What type of fish do you want?") + " costs $" , input("What is the price? "))
+
+print (fish_requested)
